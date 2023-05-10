@@ -259,3 +259,12 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueuedNodeIndex":198,"enqueueingNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","enqueueingNodeIndex":259}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp","enqueuedNodeIndex":197,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueueingNodeIndex":198}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":260,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
+{"msg":"nodeRetryBuild","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":198}
+{"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":198}
+{"msg":"noderesult","processed_node_count":256,"number_of_nodes_ever_queued":260,"annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","index":198,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.dll","stdout":"Assets\\Scripts\\Gun.cs(26,19): warning CS0414: The field 'Gun.fireDistance' is assigned but its value is never used"}
+{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":259,"changes":[{"key":"InputFileList","value":["Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
+{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":259}
+{"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":260,"changes":[{"key":"InputFileList","value":["Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
+{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":260}
+{"msg":"noderesult","processed_node_count":257,"number_of_nodes_ever_queued":260,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":259,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
+{"msg":"noderesult","processed_node_count":258,"number_of_nodes_ever_queued":260,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":260,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.pdb"}
