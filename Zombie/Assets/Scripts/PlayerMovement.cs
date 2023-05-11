@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour {
         // 상대적으로 이동할 거리 계산 (한 프레임 동안 현재 위치에서 상대적으로 더 이동할 거리 + 방향)
         Vector3 moveDistance =
             playerInput.move * transform.forward * moveSpeed * Time.deltaTime;
-        // 앞쪽 방향 * 속력 * 시간
+        // 사용자 입력(앞쪽 방향) * 속력 * 시간
 
         // 리지드바디를 이용해 게임 오브젝트 위치 변경
         playerRigidbody.MovePosition(playerRigidbody.position + moveDistance);
@@ -46,6 +46,12 @@ public class PlayerMovement : MonoBehaviour {
 
     // 입력값에 따라 캐릭터를 좌우로 회전
     private void Rotate() {
+        // 상대적으로 회전할 수치 계산
+        float turn = playerInput.rotate * rotateSpeed * Time.deltaTime;
+        // 사용자 입력 * 회전 속도 * 시간
 
+        // 리지드바디를 이용해 게임 오브젝트 회전 변경
+        playerRigidbody.rotation =
+            playerRigidbody.rotation * Quaternion.Euler(0, turn, 0f);       // turn만큼 y축 회전
     }
 }
