@@ -17,11 +17,36 @@ public class PlayerHealth : LivingEntity {
 
     private void Awake() {
         // 사용할 컴포넌트를 가져오기
+        playerAnimator = GetComponent<Animator>();
+        playerAudioPlayer = GetComponent<AudioSource>();
+
+        playerMovement = GetComponent<PlayerMovement>();
+        playerShooter = GetComponent<PlayerShooter>();
     }
 
     protected override void OnEnable() {
         // LivingEntity의 OnEnable() 실행 (상태 초기화)
         base.OnEnable();
+
+        // 체력 슬라이더 활성화
+        healthSlider.gameObject.SetActive(true);
+        // 체력 슬라이더의 최댓값을 기본 체력값으로 변경
+        healthSlider.maxValue = startingHealth;
+        // 체력 슬라이더의 값을 현재 체력값으로 변경
+        healthSlider.value = health;
+
+        // 플레이어 조작을 받는 컴포넌트 활성화
+        playerMovement.enabled = true;
+        playerShooter.enabled = true;
+
+        // 사실 이 처리는 필수적인 처리가 아니다
+        // Awake로 옮기거나
+        // 체력 슬라이더, 슈터, 무브먼트는 이미 활성화된 상태이기 때문에 없애도 된다
+        // 그럼에도 이 처리를 넣은 이유는 "부활 기능"에 염두에 둔 구현이기 때문
+
+        // 캐릭터가 사망할 경우 체력 슬라이더, 슈터, 무브먼트 컴포넌트는 모두 비활성화된다
+        // 혹여 "부활 기능"을 확장 구현한다면 OnEnable 메서드는
+        // 캐릭터가 부활하면서 비활성화된 게임 오브젝트와 컴포넌트를 다시 활성화하는 "자동 리셋" 기능을 담당한다
     }
 
     // 체력 회복
