@@ -37,13 +37,35 @@ public class Zombie : LivingEntity
         }
     }
 
-    private void Awake() {
-        // 초기화
+    private void Awake() // 초기화
+    {
+        // 게임 오브젝트로부터 사용할 컴포넌트 가져오기
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        zombieAnimator = GetComponent<Animator>();
+        zombieAudioPlayer = GetComponent<AudioSource>();
+
+        // 렌더러 컴포넌트는 자식 게임 오브젝트에 있으므로
+        // GetComponentInChildren() 메서드 사용
+        zombieRenderer = GetComponentInChildren<Renderer>();
     }
 
     // 좀비 AI의 초기 스펙을 결정하는 셋업 메서드
-    public void Setup(ZombieData zombieData) {
-        
+    public void Setup(ZombieData zombieData) 
+    {
+        // "좀비 생성기"가 생성한 좀비의 초기 능력치를 설정하기 위해 실행하는 메서드
+        // 따라서 외부에서 사용할 수 있도록 public으로 지정
+
+        // 체력 설정
+        startingHealth = zombieData.health;
+        health = zombieData.damage;
+        // 공격력 설정
+        damage = zombieData.damage;
+
+        // 내비메시 에이전트의 이동 속도 설정
+        navMeshAgent.speed = zombieData.speed; 
+
+        // 렌더러가 사용중인 머터리얼의 컬러를 변경, 외형 색이 변함
+        zombieRenderer.material.color = zombieData.skinColor;
     }
 
     private void Start() {

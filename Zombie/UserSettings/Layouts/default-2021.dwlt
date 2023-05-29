@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 80
+  controlID: 146
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 116
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 79
+  controlID: 145
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 64
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -419,6 +419,7 @@ MonoBehaviour:
     - {fileID: 1107674320158678900, guid: dc7f0d1308d0bd1499a8fee0eea23f08, type: 2}
     - {fileID: 1107156279010911476, guid: dc7f0d1308d0bd1499a8fee0eea23f08, type: 2}
     - {fileID: 1102137571351859754, guid: dc7f0d1308d0bd1499a8fee0eea23f08, type: 2}
+    - {fileID: 1107841657443903064, guid: 8eebe7519312a5c4eaeed6cd5ebb0411, type: 2}
     m_ValueSerializationHelper:
     - e00: 1.0032253
       e01: 0
@@ -460,6 +461,22 @@ MonoBehaviour:
       e11: 1
       e12: 0
       e13: 148
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -549,9 +566,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ec0a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 70f0ffffd4faffff
+      m_ExpandedIDs: d4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -661,22 +678,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\GomChan\Documents\GitHub\Making-Top-down-Shooter-Game\Zombie
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86540000
-    m_LastClickedID: 21638
-    m_ExpandedIDs: 000000005854000000ca9a3bffffff7f
+    m_SelectedIDs: c4540000
+    m_LastClickedID: 21700
+    m_ExpandedIDs: 00000000aa54000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -704,7 +721,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000058540000
+    m_ExpandedIDs: 00000000aa540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1154,11 +1171,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.049112342, y: 0.6874759, z: -0.04668243, w: 0.72305334}
     speed: 2
-    m_Value: {x: 0.049181808, y: 0.68638355, z: -0.046608232, w: 0.7240763}
+    m_Value: {x: 0.04911184, y: 0.6874689, z: -0.04668195, w: 0.72304595}
   m_Size:
     m_Target: 1.9981221
     speed: 2
-    m_Value: 2.0922744
+    m_Value: 1.9981221
   m_Ortho:
     m_Target: 0
     speed: 2
