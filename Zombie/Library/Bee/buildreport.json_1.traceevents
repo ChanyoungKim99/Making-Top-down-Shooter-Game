@@ -1,0 +1,381 @@
+{ "pid": "BeeDriver", "ph":"M", "name": "process_name", "args": {"name": "BeeDriver"} },
+{ "pid": "BeeDriver", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -2} },
+{ "pid": "BeeDriver", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "BeeDriver", "tid": 1,"ts": 286145670017.3,"dur": 0, "ph":"X", "name": "Build Player"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 286145670203.8,"dur": 3834.5, "ph":"X", "name": "WriteBuildProgramData"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 286145674038.7,"dur": 27715.8, "ph":"X", "name": "Run Backend"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 286145701755.4,"dur": 506945.5, "ph":"X", "name": "BuildProgram"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 286146208701.6,"dur": 778441.3, "ph":"X", "name": "Run Backend"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 286146987143.7,"dur": 1685.9, "ph":"X", "name": "Finish"},
+{ "pid": "BuildProgram", "ph":"M", "name": "process_name", "args": {"name": "BuildProgram"} },
+{ "pid": "BuildProgram", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
+{ "pid": "BuildProgram", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "BuildProgram", "tid": 1,"ts": 286146074375,"dur": 116248.3, "ph":"X", "name": "BuildProgram"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 286146074549.8,"dur": 43825.6, "ph":"X", "name": "BuildProgramContextCCtor"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 286146178185.3,"dur": 3607, "ph":"X", "name": "OutputData.Write"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 286146181792.7,"dur": 8830.1, "ph":"X", "name": "Backend.Write"},
+{ "pid": "BuildProgram", "tid": 1,"ts": 286146182337.4,"dur": 7599, "ph":"X", "name": "JsonToString"},
+{ "cat":"", "pid":"bee_backend", "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":"bee_backend", "tid":0, "ts":286146245672, "dur":4172, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":4, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146249844, "dur":1067, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146251028, "dur":37, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146251080, "dur":11, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146251091, "dur":333, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146967043, "dur":10990, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":11, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978055, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978145, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978155, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978159, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978163, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978168, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978172, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978176, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978180, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978184, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978189, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978194, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":286146978197, "dur":1372, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"Write AllBuiltNodes" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146251383, "dur":1052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146265519, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146266255, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146269225, "dur":97069, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":97, "detail":"CopyFiles GameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146366330, "dur":4413, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146371236, "dur":20354, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":20, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146391633, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146392886, "dur":43735, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":44, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146436714, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146439627, "dur":21612, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":22, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146461271, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146464797, "dur":62206, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":62, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146527070, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146532037, "dur":42460, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":42, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146574525, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146578303, "dur":80754, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":81, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146659097, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146661449, "dur":29936, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":30, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146691428, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146693965, "dur":156686, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":157, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146850692, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/System.dll" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146854001, "dur":113064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":113, "detail":"" }}
+,{ "pid":"bee_backend", "tid":1, "ts":286146967066, "dur":10813, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146251408, "dur":1026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":1, "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146252888, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146253991, "dur":619, "ph":"X", "name": "WriteText",  "args": { "durationMS":1, "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146254614, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/app.info" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146255301, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/app.info" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146257991, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146259275, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146261447, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146261639, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146264001, "dur":8215, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":8, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146272236, "dur":10511, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":11, "detail":"GameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146282905, "dur":20542, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":21, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146303725, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146305387, "dur":23113, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":23, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146328570, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146330058, "dur":49600, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":50, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146379716, "dur":6534, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":7, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146386540, "dur":79878, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":80, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146466442, "dur":5329, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146472214, "dur":20912, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":21, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146493183, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146495296, "dur":18536, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":19, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146513876, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146515495, "dur":24452, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":24, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146539998, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146541220, "dur":33379, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":33, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146574621, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146578506, "dur":24191, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":24, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146602726, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146603955, "dur":48071, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":48, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Transactions.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146652073, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Transactions.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146653389, "dur":68186, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":68, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146721621, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146723428, "dur":99625, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":100, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Core.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146823103, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/System.Core.dll" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146825461, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/Resources/unity_builtin_extra" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146825582, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Resources/unity_builtin_extra" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146827055, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.vis" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146828744, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.vis" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146829923, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.rsc.sse" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146830151, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.rsc.sse" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146831999, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.rgb" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146832030, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.rgb" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146833508, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.caw" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146833533, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.caw" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146834776, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.rgb" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146835110, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.rgb" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146836872, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.rsc.sse" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146837028, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.rsc.sse" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146838468, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/sharedassets0.resource" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146838500, "dur":7888, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":8, "detail":"GameBuild/Zombie_Data/sharedassets0.resource" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146846475, "dur":120569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":121, "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":286146967045, "dur":10845, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146260850, "dur":26231, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":26, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146289245, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146290581, "dur":32977, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":33, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146323599, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146325244, "dur":19157, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":19, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146344506, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146346026, "dur":17625, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":18, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146363726, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146367654, "dur":20118, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":20, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146387813, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146389706, "dur":37287, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":37, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146427051, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146429385, "dur":20875, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":21, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146450312, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146452682, "dur":20607, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":21, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146473400, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146475368, "dur":98696, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":99, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146574099, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146575736, "dur":51098, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":51, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146626869, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146627980, "dur":68206, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":68, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Numerics.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146696229, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Numerics.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146697809, "dur":135789, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":136, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Data.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146833618, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/System.Data.dll" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146835882, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.iws.sse" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146835902, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.iws.sse" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146837108, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.rgb" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146837250, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.rgb" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146839051, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/sharedassets0.assets" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146839077, "dur":4112, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/sharedassets0.assets" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146844989, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/boot.config" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146845151, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/boot.config" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146846883, "dur":120162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":120, "detail":"" }}
+,{ "pid":"bee_backend", "tid":3, "ts":286146967046, "dur":10845, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146253230, "dur":11422, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":11, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146264874, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146267111, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146267346, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146270949, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/Resources/unity default resources" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146271317, "dur":18376, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":18, "detail":"GameBuild/Zombie_Data/Resources/unity default resources" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146289943, "dur":34914, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":35, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146324927, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146327924, "dur":19490, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":19, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146347434, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146350605, "dur":107321, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":107, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146457974, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146460608, "dur":35380, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":35, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146496016, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146498600, "dur":26085, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":26, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146524714, "dur":7782, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":8, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146532716, "dur":37794, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":38, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146570553, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146572441, "dur":209259, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":209, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146781729, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146785262, "dur":75860, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":76, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/clipper_library.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146861160, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/clipper_library.dll" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146862236, "dur":104817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":105, "detail":"" }}
+,{ "pid":"bee_backend", "tid":4, "ts":286146967055, "dur":10830, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146262513, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146262973, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146265231, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146265261, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146268325, "dur":106255, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":106, "detail":"CopyFiles GameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146374889, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146379716, "dur":32501, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":33, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146412259, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146413706, "dur":22886, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":23, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146436630, "dur":4977, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146441897, "dur":38018, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":38, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146479957, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146483144, "dur":24888, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":25, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146508059, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146509501, "dur":91980, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":92, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146601512, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146605502, "dur":74382, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":74, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146679926, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146681366, "dur":29757, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":30, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146711166, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146712581, "dur":39243, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":39, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146751862, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146757447, "dur":152980, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":153, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Mono.Security.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146910463, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Mono.Security.dll" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146911427, "dur":55619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":56, "detail":"" }}
+,{ "pid":"bee_backend", "tid":5, "ts":286146967048, "dur":10839, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146263586, "dur":8303, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":8, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146271918, "dur":10859, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":11, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146283084, "dur":33998, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":34, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146317189, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146320040, "dur":24344, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":24, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146344487, "dur":5465, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146350088, "dur":29552, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":30, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146379699, "dur":6587, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":7, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146386492, "dur":33903, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":34, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146420459, "dur":8751, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":9, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146429506, "dur":36422, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":36, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146465957, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146468788, "dur":26516, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":27, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146495335, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146496887, "dur":58571, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":59, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146555497, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146558089, "dur":46895, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":47, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146605626, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146606973, "dur":132657, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":133, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Security.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146739670, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Security.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146741304, "dur":89845, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":90, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146831178, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146833183, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.ecm" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146833212, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.ecm" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146834272, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.rsc.sse" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146834466, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.rsc.sse" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146836536, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.ecm" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146836616, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.ecm" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146837617, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.iws.sse" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146837637, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.iws.sse" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146839203, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/ScriptingAssemblies.json" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146839462, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/ScriptingAssemblies.json" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146840509, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/globalgamemanagers.assets" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146840537, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/globalgamemanagers.assets" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146842113, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/globalgamemanagers" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146842141, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/globalgamemanagers" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146845559, "dur":121488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":121, "detail":"" }}
+,{ "pid":"bee_backend", "tid":6, "ts":286146967047, "dur":10841, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146264606, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146264797, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146267897, "dur":31778, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":32, "detail":"CopyFiles GameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146300097, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146301218, "dur":34749, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":35, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146336020, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146337874, "dur":60059, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":60, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146397973, "dur":5350, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146403542, "dur":31986, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":32, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146435571, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146437189, "dur":24509, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":25, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146461730, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146465623, "dur":27936, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":28, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146493593, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146495779, "dur":28397, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":28, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146524363, "dur":7104, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":7, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146531665, "dur":24396, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":24, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146556087, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146558248, "dur":60590, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":61, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146618879, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146620432, "dur":114565, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":115, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146735046, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146737973, "dur":97481, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":97, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Configuration.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146835484, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Configuration.dll" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146836790, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.vis" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146837016, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.vis" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146838596, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/sharedassets0.assets.resS" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146838617, "dur":15266, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":15, "detail":"GameBuild/Zombie_Data/sharedassets0.assets.resS" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146854036, "dur":113026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":113, "detail":"" }}
+,{ "pid":"bee_backend", "tid":7, "ts":286146967063, "dur":10818, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146267576, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146268259, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146270956, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie.exe" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146271387, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie.exe" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146275328, "dur":48447, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":48, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146323805, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146325249, "dur":19560, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":20, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146344836, "dur":5421, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146350473, "dur":37390, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":37, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146387894, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146390313, "dur":16654, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":17, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146407011, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146408667, "dur":18820, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":19, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146427516, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146429756, "dur":20949, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":21, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146450748, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146452883, "dur":47274, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":47, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146500231, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146506258, "dur":26811, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":27, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146533096, "dur":7181, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":7, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146540440, "dur":122725, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":123, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146663199, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146665012, "dur":87538, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":88, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146752582, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146756234, "dur":208656, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":209, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/mscorlib.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146964918, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/mscorlib.dll" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146967000, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"Player" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146967017, "dur":42, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":"bee_backend", "tid":8, "ts":286146967060, "dur":10821, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146266868, "dur":6620, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":7, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146273506, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":6, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146279926, "dur":18952, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":19, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146299263, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146300470, "dur":21160, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":21, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146321672, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146324108, "dur":22776, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":23, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146346914, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146350684, "dur":115005, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":115, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146466162, "dur":7141, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":7, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146473470, "dur":31473, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":31, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146504976, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146507301, "dur":25078, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":25, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146532438, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146535666, "dur":52773, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":53, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146588478, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146590809, "dur":94043, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":94, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146684893, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146686484, "dur":150063, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":150, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Drawing.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146836626, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/System.Drawing.dll" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146838267, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.caw" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146838293, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.caw" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146840000, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/level0" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146840021, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":5, "detail":"GameBuild/Zombie_Data/level0" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146844822, "dur":122225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":122, "detail":"" }}
+,{ "pid":"bee_backend", "tid":9, "ts":286146967048, "dur":10836, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146266123, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146266169, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146268525, "dur":458661, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":459, "detail":"CopyFiles GameBuild/UnityPlayer.dll" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146727240, "dur":20251, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":20, "detail":"GameBuild/UnityPlayer.dll" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146747703, "dur":33954, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":34, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/netstandard.dll" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146781696, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/netstandard.dll" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146785322, "dur":111242, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":111, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Cinemachine.dll" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146896598, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Cinemachine.dll" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146897469, "dur":69581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":70, "detail":"" }}
+,{ "pid":"bee_backend", "tid":10, "ts":286146967052, "dur":10832, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146253038, "dur":11906, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":12, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146265183, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146267098, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146267326, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146269660, "dur":42172, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":42, "detail":"CopyFiles GameBuild/NVUnityPlugin.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146311890, "dur":4439, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/NVUnityPlugin.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146316739, "dur":87034, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":87, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146403804, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146405003, "dur":40050, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":40, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146445172, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146446945, "dur":53274, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":53, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146500254, "dur":7467, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":7, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146507857, "dur":22619, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":23, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146530550, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146533651, "dur":21571, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":22, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146555278, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146558186, "dur":40682, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":41, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146598911, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146600370, "dur":213011, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":213, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/System.Xml.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146813425, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/System.Xml.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146816835, "dur":44422, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":44, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146861279, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146862211, "dur":104845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":105, "detail":"" }}
+,{ "pid":"bee_backend", "tid":11, "ts":286146967058, "dur":10825, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146252943, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146254463, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146258522, "dur":11108, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":11, "detail":"CopyFiles GameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146269656, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146270871, "dur":214069, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":214, "detail":"CopyFiles GameBuild/nvngx_dlss.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146485587, "dur":10558, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":11, "detail":"GameBuild/nvngx_dlss.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146496279, "dur":24910, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":25, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146521241, "dur":8921, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":9, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146530566, "dur":31226, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":31, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146561850, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":3, "detail":"GameBuild/Zombie_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146565302, "dur":176372, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":176, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146741704, "dur":3874, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":4, "detail":"GameBuild/Zombie_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146745704, "dur":85038, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":85, "detail":"CopyFiles GameBuild/Zombie_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146830771, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146832317, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.iws.sse" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146832341, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/4f/4fd9786c534c763cb41329b41d0ac23d.iws.sse" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146834068, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.vis" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146834683, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":2, "detail":"GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.vis" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146836602, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.caw" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146836757, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/2d/2d67332a0ad1f6ca0a08dc14c6390d1c.caw" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146837941, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"CopyFiles GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.ecm" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146837966, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/GI/level0/1a/1afb5af8e4eb3a8c84be48916924708c.ecm" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146839560, "dur":9685, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":10, "detail":"CopyFiles GameBuild/Zombie_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146849303, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "durationMS":1, "detail":"GameBuild/Zombie_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146850827, "dur":116215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":116, "detail":"" }}
+,{ "pid":"bee_backend", "tid":12, "ts":286146967043, "dur":10846, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,
